@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5049021CD1EE2100EF24C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049011CD1EE2100EF24C8 /* main.m */; };
+		6E5049051CD1EE2100EF24C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049041CD1EE2100EF24C8 /* AppDelegate.m */; };
+		6E5049081CD1EE2100EF24C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049071CD1EE2100EF24C8 /* ViewController.m */; };
+		6E50490B1CD1EE2100EF24C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5049091CD1EE2100EF24C8 /* Main.storyboard */; };
+		6E50490D1CD1EE2100EF24C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E50490C1CD1EE2100EF24C8 /* Assets.xcassets */; };
+		6E5049101CD1EE2100EF24C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E50490E1CD1EE2100EF24C8 /* LaunchScreen.storyboard */; };
+		6E50491B1CD1EE2100EF24C8 /* AlertViewControllerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E50491A1CD1EE2100EF24C8 /* AlertViewControllerSampleTests.m */; };
+		6E5049261CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049251CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.m */; };
+		6E5049351CD1EE5B00EF24C8 /* JPAlertViewControllerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049341CD1EE5B00EF24C8 /* JPAlertViewControllerObject.m */; };
+		6E5049381CD21B3500EF24C8 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5049371CD21B3500EF24C8 /* NetWork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5049171CD1EE2100EF24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5048F51CD1EE2000EF24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5048FC1CD1EE2100EF24C8;
+			remoteInfo = AlertViewControllerSample;
+		};
+		6E5049221CD1EE2100EF24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5048F51CD1EE2000EF24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5048FC1CD1EE2100EF24C8;
+			remoteInfo = AlertViewControllerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5048FD1CD1EE2100EF24C8 /* AlertViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5049011CD1EE2100EF24C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E5049031CD1EE2100EF24C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E5049041CD1EE2100EF24C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E5049061CD1EE2100EF24C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E5049071CD1EE2100EF24C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E50490A1CD1EE2100EF24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E50490C1CD1EE2100EF24C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E50490F1CD1EE2100EF24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5049111CD1EE2100EF24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5049161CD1EE2100EF24C8 /* AlertViewControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E50491A1CD1EE2100EF24C8 /* AlertViewControllerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewControllerSampleTests.m; sourceTree = "<group>"; };
+		6E50491C1CD1EE2100EF24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5049211CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5049251CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewControllerSampleUITests.m; sourceTree = "<group>"; };
+		6E5049271CD1EE2200EF24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5049331CD1EE5B00EF24C8 /* JPAlertViewControllerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPAlertViewControllerObject.h; path = JPAlertViewControllerObject/JPAlertViewControllerObject.h; sourceTree = "<group>"; };
+		6E5049341CD1EE5B00EF24C8 /* JPAlertViewControllerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPAlertViewControllerObject.m; path = JPAlertViewControllerObject/JPAlertViewControllerObject.m; sourceTree = "<group>"; };
+		6E5049361CD21B3500EF24C8 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		6E5049371CD21B3500EF24C8 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5048FA1CD1EE2100EF24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5049131CD1EE2100EF24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E50491E1CD1EE2100EF24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5048F41CD1EE2000EF24C8 = {
+			isa = PBXGroup;
+			children = (
+				6E5048FF1CD1EE2100EF24C8 /* AlertViewControllerSample */,
+				6E5049191CD1EE2100EF24C8 /* AlertViewControllerSampleTests */,
+				6E5049241CD1EE2100EF24C8 /* AlertViewControllerSampleUITests */,
+				6E5048FE1CD1EE2100EF24C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5048FE1CD1EE2100EF24C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5048FD1CD1EE2100EF24C8 /* AlertViewControllerSample.app */,
+				6E5049161CD1EE2100EF24C8 /* AlertViewControllerSampleTests.xctest */,
+				6E5049211CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5048FF1CD1EE2100EF24C8 /* AlertViewControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				6E5049031CD1EE2100EF24C8 /* AppDelegate.h */,
+				6E5049041CD1EE2100EF24C8 /* AppDelegate.m */,
+				6E5049061CD1EE2100EF24C8 /* ViewController.h */,
+				6E5049071CD1EE2100EF24C8 /* ViewController.m */,
+				6E5049361CD21B3500EF24C8 /* NetWork.h */,
+				6E5049371CD21B3500EF24C8 /* NetWork.m */,
+				6E5049091CD1EE2100EF24C8 /* Main.storyboard */,
+				6E50490C1CD1EE2100EF24C8 /* Assets.xcassets */,
+				6E50490E1CD1EE2100EF24C8 /* LaunchScreen.storyboard */,
+				6E5049111CD1EE2100EF24C8 /* Info.plist */,
+				6E5049001CD1EE2100EF24C8 /* Supporting Files */,
+				6E5049331CD1EE5B00EF24C8 /* JPAlertViewControllerObject.h */,
+				6E5049341CD1EE5B00EF24C8 /* JPAlertViewControllerObject.m */,
+			);
+			path = AlertViewControllerSample;
+			sourceTree = "<group>";
+		};
+		6E5049001CD1EE2100EF24C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5049011CD1EE2100EF24C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E5049191CD1EE2100EF24C8 /* AlertViewControllerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E50491A1CD1EE2100EF24C8 /* AlertViewControllerSampleTests.m */,
+				6E50491C1CD1EE2100EF24C8 /* Info.plist */,
+			);
+			path = AlertViewControllerSampleTests;
+			sourceTree = "<group>";
+		};
+		6E5049241CD1EE2100EF24C8 /* AlertViewControllerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5049251CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.m */,
+				6E5049271CD1EE2200EF24C8 /* Info.plist */,
+			);
+			path = AlertViewControllerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5048FC1CD1EE2100EF24C8 /* AlertViewControllerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E50492A1CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSample" */;
+			buildPhases = (
+				6E5048F91CD1EE2100EF24C8 /* Sources */,
+				6E5048FA1CD1EE2100EF24C8 /* Frameworks */,
+				6E5048FB1CD1EE2100EF24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertViewControllerSample;
+			productName = AlertViewControllerSample;
+			productReference = 6E5048FD1CD1EE2100EF24C8 /* AlertViewControllerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5049151CD1EE2100EF24C8 /* AlertViewControllerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E50492D1CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSampleTests" */;
+			buildPhases = (
+				6E5049121CD1EE2100EF24C8 /* Sources */,
+				6E5049131CD1EE2100EF24C8 /* Frameworks */,
+				6E5049141CD1EE2100EF24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5049181CD1EE2100EF24C8 /* PBXTargetDependency */,
+			);
+			name = AlertViewControllerSampleTests;
+			productName = AlertViewControllerSampleTests;
+			productReference = 6E5049161CD1EE2100EF24C8 /* AlertViewControllerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5049201CD1EE2100EF24C8 /* AlertViewControllerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5049301CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSampleUITests" */;
+			buildPhases = (
+				6E50491D1CD1EE2100EF24C8 /* Sources */,
+				6E50491E1CD1EE2100EF24C8 /* Frameworks */,
+				6E50491F1CD1EE2100EF24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5049231CD1EE2100EF24C8 /* PBXTargetDependency */,
+			);
+			name = AlertViewControllerSampleUITests;
+			productName = AlertViewControllerSampleUITests;
+			productReference = 6E5049211CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5048F51CD1EE2000EF24C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CompIndia;
+				TargetAttributes = {
+					6E5048FC1CD1EE2100EF24C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6E5049151CD1EE2100EF24C8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6E5048FC1CD1EE2100EF24C8;
+					};
+					6E5049201CD1EE2100EF24C8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6E5048FC1CD1EE2100EF24C8;
+					};
+				};
+			};
+			buildConfigurationList = 6E5048F81CD1EE2000EF24C8 /* Build configuration list for PBXProject "AlertViewControllerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5048F41CD1EE2000EF24C8;
+			productRefGroup = 6E5048FE1CD1EE2100EF24C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5048FC1CD1EE2100EF24C8 /* AlertViewControllerSample */,
+				6E5049151CD1EE2100EF24C8 /* AlertViewControllerSampleTests */,
+				6E5049201CD1EE2100EF24C8 /* AlertViewControllerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5048FB1CD1EE2100EF24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5049101CD1EE2100EF24C8 /* LaunchScreen.storyboard in Resources */,
+				6E50490D1CD1EE2100EF24C8 /* Assets.xcassets in Resources */,
+				6E50490B1CD1EE2100EF24C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5049141CD1EE2100EF24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E50491F1CD1EE2100EF24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5048F91CD1EE2100EF24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5049351CD1EE5B00EF24C8 /* JPAlertViewControllerObject.m in Sources */,
+				6E5049381CD21B3500EF24C8 /* NetWork.m in Sources */,
+				6E5049081CD1EE2100EF24C8 /* ViewController.m in Sources */,
+				6E5049051CD1EE2100EF24C8 /* AppDelegate.m in Sources */,
+				6E5049021CD1EE2100EF24C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5049121CD1EE2100EF24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E50491B1CD1EE2100EF24C8 /* AlertViewControllerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E50491D1CD1EE2100EF24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5049261CD1EE2100EF24C8 /* AlertViewControllerSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5049181CD1EE2100EF24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5048FC1CD1EE2100EF24C8 /* AlertViewControllerSample */;
+			targetProxy = 6E5049171CD1EE2100EF24C8 /* PBXContainerItemProxy */;
+		};
+		6E5049231CD1EE2100EF24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5048FC1CD1EE2100EF24C8 /* AlertViewControllerSample */;
+			targetProxy = 6E5049221CD1EE2100EF24C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5049091CD1EE2100EF24C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E50490A1CD1EE2100EF24C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E50490E1CD1EE2100EF24C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E50490F1CD1EE2100EF24C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5049281CD1EE2200EF24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5049291CD1EE2200EF24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E50492B1CD1EE2200EF24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E50492C1CD1EE2200EF24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E50492E1CD1EE2200EF24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlertViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertViewControllerSample.app/AlertViewControllerSample";
+			};
+			name = Debug;
+		};
+		6E50492F1CD1EE2200EF24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlertViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertViewControllerSample.app/AlertViewControllerSample";
+			};
+			name = Release;
+		};
+		6E5049311CD1EE2200EF24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlertViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlertViewControllerSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6E5049321CD1EE2200EF24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlertViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoPrithiviraj.AlertViewControllerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlertViewControllerSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5048F81CD1EE2000EF24C8 /* Build configuration list for PBXProject "AlertViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5049281CD1EE2200EF24C8 /* Debug */,
+				6E5049291CD1EE2200EF24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E50492A1CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E50492B1CD1EE2200EF24C8 /* Debug */,
+				6E50492C1CD1EE2200EF24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E50492D1CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E50492E1CD1EE2200EF24C8 /* Debug */,
+				6E50492F1CD1EE2200EF24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5049301CD1EE2200EF24C8 /* Build configuration list for PBXNativeTarget "AlertViewControllerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5049311CD1EE2200EF24C8 /* Debug */,
+				6E5049321CD1EE2200EF24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5048F51CD1EE2000EF24C8 /* Project object */;
+}
